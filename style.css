@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.collapse ul li a:hover{
+    /* background-color: black; */
+color: red;
+    font-weight: bold;
+    
+}
+.about{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.tab1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.serv{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.serv1 img{
+height: 250px;
+width: 500px;
+border-radius: 10px;
+padding: 5px;
+float:left;
+}
+.serv1 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+h6{
+    padding-left: 10px;
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.serv1 p a{
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.serv2 img{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    float:right;
+}
+.serv2 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.serv2 p a{
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.serv3 img{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    float:left;
+}
+.serv3 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.serv3 p a{
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.serv4 img{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    float:right;
+}
+.serv4 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.serv4 p a{
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.serv5 img{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    float:left;
+}
+.serv5 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.serv5 p a{
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.serv6 img{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    float:right;
+}
+.serv6 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.serv6 p a{
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.serv7 img{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    float:left;
+}
+.serv7 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.serv7 p a{
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.gal{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.testo{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+/* .inn p{
+ /* font-size: 15px;
+ color: black; 
+} */
+.inn p i{
+ color: orangered;
+ font-size: 20px;
+}
+.inn .in1{
+    color: orangered;
+}
+.conta{
+    text-align: center;
+}
+.conta h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.cont1 i{
+    font-size: 30px;
+    color: blue;
+} 
+.cont1 p{
+    font-size: 18px;
+}
+.cont2 i{
+    font-size: 30px;
+    color: blue;
+} 
+.cont2 p{
+    font-size: 18px;
+}
+.cont3 i{
+    font-size: 30px;
+    color: blue;
+} 
+.cont3 p{
+    font-size: 18px;
+}
+.cont4 i{
+    font-size: 30px;
+    color: blue;
+} 
+.cont4 p{
+    font-size: 18px;
+}
+.gotop{
+    /* position: fixed; */
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    /* color: #fff; */
+    font-size: 30px;
+    color: red;
+
+}
+.fot{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;margin-left: 1000px;
+}
+
+

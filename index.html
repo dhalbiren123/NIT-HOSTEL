@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIT HOSTEL WEBPAGE</title>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+<style>
+  body {
+        margin: 0;
+        padding: 0;
+      }
+      .slide{
+        position: relative;
+        height: 100%;
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin-top:20px ;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+</style>
+</head>
+
+<body>
+    <!-- <header style="background-color:#fff;display: flex;">
+        <div style="width: 40%;display: flex;"><img src="logo.png" alt="logo" style="width: 80px;margin-left: 10px;"><div style="margin: 20px 0 0 10px;color: rgb(221, 18, 18);font-size: 30px;font-weight: bold;">NIT BOYS HOSTEL</div></div>
+        <div style="width: 60%;"><ul style="display:flex ;list-style: none;">
+            <li style="padding-left: 50px;">Home</li>
+            <li style="padding-left: 50px;">About</li>
+            <li style="padding-left: 50px;">Contact</li>
+            <li style="padding-left: 50px;">Service</li>
+        </ul>
+        </div>
+    </header> -->
+    <div class="row" style="width: 100%;margin-top: 0;margin-left: 2px;display: flex;">
+      <div class="col-md-8" id="mark" style="width:70%;display: flex;">
+      <div class="logo1" style="width:15%;">
+        <img src="logo.png" class="logo" style="width: 110px;"></a>
+      </div>
+      <div class="inner">
+        <h1 style="color:red;font-size: 30px;bottom: 0;">
+          <b>NALANDA INSTITUTE OF TECHNOLOGY</b></h1>
+       <h2 class="rce-h3" style="font-size: 30px;top: 0%;color: grey;
+       "><b>नालन्दा प्रौद्योगिकी संस्थान</b></h2>
+       <h2  style="font-size: 15px;color: blue;"><b>Approved By AICTE, New Delhi, Affiliated By BPUT, Rourkela</b></h2>
+      </div> 
+      </div>
+      <div class="inner1" style="padding-right:0;width:30%;background-image:url(sponser.jpg);background-repeat:no-repeat;padding-top: 30px;background-size: contain;" >
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg " style="background-color: grey;position: sticky;">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#" style="font-family:'Times New Roman', Times, serif;font-size: 40px;color: red;font-weight: bold;padding-left: 10px;">
+            NIT BOYS HOSTEL</a>
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 50px;">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="padding-left: 30px; font-size: 20px;border-radius: 10px;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" style="padding-left: 30px; font-size: 20px;border-radius: 10px;color:black;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service" style="padding-left: 30px; font-size: 20px;border-radius: 10px;color:black;">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#gallery" style="padding-left: 30px; font-size: 20px;border-radius: 10px;color:black;">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#testomonial" style="padding-left: 30px; font-size: 20px;border-radius: 10px;color:black;">Testomonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contact" style="padding-left: 30px; font-size: 20px;border-radius: 10px;color:black;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div style="color: yellow;background-color: RED;text-align: center;font-size: 20px;font-family: 'Times New Roman', Times, serif;font-weight: 700;">WELCOME  TO  NALANGA  INSTITUTE  OF TECHNOLOGY</div>
+      <div class="register" style="font-size: 20px;font-family: 'Times New Roman', Times, serif;font-weight: 700;text-align: center;text-transform: uppercase;background-color: gainsboro;">Student Registration</div>
+        <div class="login" style="width: 400px;margin-left:400px ;">
+          <label for="input" style="font-size: 18px;font-weight: 700;">Name:-</label><br>
+          <input type="text" placeholder="Please Enter your Name" style="width: 100%;border-radius: 5px;">
+          <br>
+          <label for="input" style="font-size: 18px;font-weight: 700;">Mobileno:-</label><br>
+          <input type="number" placeholder="Enter your mobile number" pattern="10[0-9]"style="width: 100%;border-radius: 5px;" required>
+          <br>
+          <label for="input" style="font-size: 18px;font-weight: 700;" >Email:-</label><br>
+          <input type="email" placeholder="Enter your email"style="width: 100%;border-radius: 5px;" required><br>
+          <button style="margin: 5px 0 0 2px;border: none;background-color: green;padding: 2px 10px  ;border-radius: 10px;color: white;font-size: 15px;font-weight: 700;"href="#" >submit</button>
+          <button style="margin-top: 5px;border: none;background-color: red;padding:2px 10px ;border-radius: 20px;color: white;font-size: 15px;font-weight: 700;"href="#">cancel</button>
+
+        </div>
+        <div class="about" id="about" > About us.</div>
+         <div style="text-align: center;"> <img src="H-room.jpeg" alt="H-room" style="border-radius: 10px;width: 80%;height: 300px;">
+          <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quaerat magni, placeat quod eius labore iusto impedit nihil tempora ex eum aliquid quisquam mollitia illo minus enim natus fugit nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure numquam temporibus, aut odit exercitationem provident maxime molestiae enim, dolore consequatur quaerat aspernatur culpa pariatur quae incidunt repellat eligendi voluptatum expedita.
+          <a href="#" style="font-size: 15px;background-color: red;color: #fff;font-weight: 700;text-decoration: none;border-radius: 5px;padding: 2px;">Readmore..</a></p>
+        </div>
+        <div class="table">
+        <div class="tab1">Hostel and Canteen Fee</div>
+        <table border="1px" width="100%" cellspacing="0">
+          <tr>
+              <th rowspan="2">Boys</th>
+              <th>Hostel Fee</th>
+              <th>Canteen Fee</th>
+          </tr>
+          <tr>
+              <td>36,000.00/year</td>
+              <td>24,000.00/year</td>
+          </tr>
+          <tr>
+              <th>Girls</th> 
+              <td>36,000.00/year</td>
+              <td>24,000.00/year</td>
+          </tr>
+      </table>
+    </div>
+    
+
+
+      <div class="serv" id="service">Services
+    </div>
+      <h6>Hostel Room</h6>
+       <div class="serv1">
+        <img src="H2.jpg" alt="Himg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem, ex quaerat aperiam voluptate praesentium impedit voluptas magnam ipsum commodi earum quam. Illum aliquam minima, labore neque quidem facilis sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, necessitatibus distinctio. Ea doloremque recusandae delectus dignissimos adipisci, molestias maiores nihil corrupti explicabo voluptatum dicta blanditiis officia rem deleniti mollitia dolore. <a href="#">Readmore..</a></p>
+       </div>
+       <br>
+       <h6 style="font-size: 25px;font-weight: bold;text-transform: uppercase;margin-left: 1100px;">Canteen</h6>
+       <div class="serv2">
+        
+        <img src="canteen .jpg" alt="Himg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem, ex quaerat aperiam voluptate praesentium impedit voluptas magnam ipsum commodi earum quam. Illum aliquam minima, labore neque quidem facilis sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, necessitatibus distinctio. Ea doloremque recusandae delectus dignissimos adipisci, molestias maiores nihil corrupti explicabo voluptatum dicta blanditiis officia rem deleniti mollitia dolore. <a href="#">Readmore..</a></p>
+       </div>
+       <br>
+       <h6 style="font-size: 25px;font-weight: bold;text-transform: uppercase;">Wifi</h6>
+       <div class="serv3"> 
+        <img src="wifi1.jpg" alt="Himg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem, ex quaerat aperiam voluptate praesentium impedit voluptas magnam ipsum commodi earum quam. Illum aliquam minima, labore neque quidem facilis sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, necessitatibus distinctio. Ea doloremque recusandae delectus dignissimos adipisci, molestias maiores nihil corrupti explicabo voluptatum dicta blanditiis officia rem deleniti mollitia dolore. <a href="#">Readmore..</a></p>
+       </div>
+       <br>
+       <h6 style="font-size: 25px;font-weight: bold;text-transform: uppercase;margin-left: 1100px;">Library</h6>
+       <div class="serv4"> 
+        <img src="library.jpeg" alt="Himg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem, ex quaerat aperiam voluptate praesentium impedit voluptas magnam ipsum commodi earum quam. Illum aliquam minima, labore neque quidem facilis sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, necessitatibus distinctio. Ea doloremque recusandae delectus dignissimos adipisci, molestias maiores nihil corrupti explicabo voluptatum dicta blanditiis officia rem deleniti mollitia dolore. <a href="#">Readmore..</a></p>
+       </div>
+       <br>
+       <h6 style="font-size: 25px;font-weight: bold;text-transform: uppercase;">Transport</h6>
+       <div class="serv5"> 
+        <img src="transportation1.jpg" alt="Himg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem, ex quaerat aperiam voluptate praesentium impedit voluptas magnam ipsum commodi earum quam. Illum aliquam minima, labore neque quidem facilis sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, necessitatibus distinctio. Ea doloremque recusandae delectus dignissimos adipisci, molestias maiores nihil corrupti explicabo voluptatum dicta blanditiis officia rem deleniti mollitia dolore. <a href="#">Readmore..</a></p>
+       </div>
+       <br>
+       <h6 style="font-size: 25px;font-weight: bold;text-transform: uppercase;margin-left: 1050px;">Ac ClassRoom</h6>
+       <div class="serv6"> 
+        <img src="lab.jpg" alt="Himg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem, ex quaerat aperiam voluptate praesentium impedit voluptas magnam ipsum commodi earum quam. Illum aliquam minima, labore neque quidem facilis sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, necessitatibus distinctio. Ea doloremque recusandae delectus dignissimos adipisci, molestias maiores nihil corrupti explicabo voluptatum dicta blanditiis officia rem deleniti mollitia dolore. <a href="#">Readmore..</a></p>
+       </div>
+       <br>
+       <h6 style="font-size: 25px;font-weight: bold;text-transform: uppercase;">Computer Lab</h6>
+       <div class="serv7"> 
+        <img src="computer-lab.png" alt="Himg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem, ex quaerat aperiam voluptate praesentium impedit voluptas magnam ipsum commodi earum quam. Illum aliquam minima, labore neque quidem facilis sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, necessitatibus distinctio. Ea doloremque recusandae delectus dignissimos adipisci, molestias maiores nihil corrupti explicabo voluptatum dicta blanditiis officia rem deleniti mollitia dolore. <a href="#">Readmore..</a></p>
+       </div>
+    <br> 
+    <br>     
+    <div class="gal" id="gallery">GALLERY</div>
+      <div style="width: 100%;height: 350px;" class="slide">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="h11.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="h6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="h7.jpg" alt="photo"></div>
+            <div class="swiper-slide"><img src="h8.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="h9.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="h10.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="canteen .jpg" alt=""></div>
+            <div class="swiper-slide"><img src="canteen1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="can1.jpg" alt=""></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="testo" id="testomonial">TESTOMONIAL</div>
+      <div style="width: 100%;height: 150px;" class="slide">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" >
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>I stay in theiir Hostel for almost 2 years and they provide excelent Service<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Nikita panda</div>
+                </p>
+              </div>
+              
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left" ></i>I stay in theiir Hostel for almost 2 years and they provide excelent Service<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Sunita sahoo</div>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>Was really happy with their services While I was staying there.Would recommended other as well.<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Naresh Mohanty</div>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>The facility they in Their Hostel room are really good.You will feel like you are at home. <i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Tanya Sharma</div>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>I stay in theiir Hostel for almost 2 years and they provide excelent Service<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Nikita panda</div>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>It was the good hostel condition and gives the best hostel facility.<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Narendra Pradhan</div>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>I stay in theiir Hostel for almost 4 years and they provide excelent Service<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Namita pal</div>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>I stay in theiir Hostel for almost 7 years and they provide excelent Service<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">chandan choudhuary</div>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inn" style="text-align: center;">
+                <p><i class="fa-solid fa-quote-left"></i>I stay in theiir Hostel for almost 5 years and they provide excelent Service<i class="fa-solid fa-quote-right"></i> 
+                  <div class="in1" style="font-size: 20px;font-weight: 800;">Prativa Sahoo</div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="conta" id="contact">
+       <h3>Contact Us.</h3>
+        <div class="cont1">
+          <i class="fa-solid fa-location-dot"></i>
+         <h5> Hostel Address</h5>
+         <p>Buddhist Villa, Chandaka
+          Bhubaneswar, Odisha-754005</p>
+        </div>
+        <div class="cont2">
+          <i class="fa-solid fa-envelope-circle-check"></i>
+          <h5> GeneralEnquiries</h5>
+         <p>Email: nitbbsr_2007@yahoo.co.in</p>
+        </div>
+        <div class="cont3">
+          <i class="fa-solid fa-phone-volume"></i>
+          <h5> Call Us</h5>
+         <p>Phone: 82497-91801, 94372-65074</p>
+        </div>
+        <div class="cont4">
+          <i class="fa-solid fa-calendar-days"></i>
+          <h5> Hostel Timings</h5>
+         <p>Mon-Sun:9:00AM - 9:00PM</p>
+        </div>
+      </div>
+      <div style="text-align: center;font-size: 35px;font-family: 'Times New Roman', Times, serif;font-weight: bold;">Footer</div>
+
+      <div style="background-color: rgb(221, 216, 216);color: #fff;">
+        <div class="col-xs-12 col-sm-6 col-md-3 widget bottom-xs-pad-20" style="float: right;margin-right: 100px;">
+          <div class="widget-title">
+            <!-- Title -->
+            <h3 class="title" style="color: red;">Locate Us</h3>
+          </div>
+          <p style="color: #000;font-size: 15px;"> <strong>Campus</strong><span style="display:block"></span> Nalanda Institute of Technology - NIT<span style="display:block"></span> 
+          Buddhist Villa, Chandaka<span style="display:block"></span> 
+          Bhubaneswar, Odisha-754005<span style="display:block"></span>
+          Phone: 82497-91801, 94372-65074<span style="display:block"></span> 
+          Email: nitbbsr_2007@yahoo.co.in<span style="display:block"></span></p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 widget bottom-xs-pad-20 ihm-footer" style="margin-left: 30px;" >
+          <div class="widget-title">
+              <!-- Title -->
+              <h3 class="title" style="color: red;">Admission Helpline</h3>
+          </div>
+         <p style="color: #000;">
+        <strong >FOR JHARKHAND</strong> <br>Baharagora Polytechnic, KrishnaKutir, 
+        near shitla mandir,<span style="display:block"></span> Beside Tanishq Gold store, Sakshi, Jamsedpur,<span style="display:block"></span> Phone: 78478-86087<span style="display:block"></span><span style="display:block"></span>Email: malaya@thenalanda.com<span style="display:block"></span>
+        </p>
+      </div>
+      <div class="fot" >Powered By NIT<a class="gotop" href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
+      </div> 
+    </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js">
+
+      </script> 
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script> 
+</body>
+</html>
